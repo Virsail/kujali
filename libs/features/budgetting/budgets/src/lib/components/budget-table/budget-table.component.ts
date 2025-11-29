@@ -4,6 +4,7 @@ import { Component, input } from '@angular/core';
   selector: 'kujali-budget-table',
   standalone: true,
   templateUrl: './budget-table.component.html'
+  changeDetection: ChangeDetectionStrategy.OnPush,  
 })
 export class BudgetTableComponent {
   overview = input<any>();
