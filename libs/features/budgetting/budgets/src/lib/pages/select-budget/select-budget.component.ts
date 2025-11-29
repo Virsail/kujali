@@ -5,6 +5,7 @@ import { SelectBudgetService } from '../services/select-budget.service';
   selector: 'kujali-select-budget-page',
   standalone: true,
   templateUrl: './select-budget-page.component.html',
+  changeDetection: ChangeDetectionStrategy.OnPush,  
 })
 export class SelectBudgetPageComponent {
 
